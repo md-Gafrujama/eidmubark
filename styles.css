@@ -1,0 +1,1195 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:#1c102f;
+    
+    
+}
+.wrapper{
+    position: fixed;
+    width:100%;
+    height:680px;
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    overflow: hidden;
+}
+.wrapper:before{
+    content:'';
+    position: absolute;
+    width:200px;
+    height:200px;
+    background: rgba(255,255,255,.1);
+    border-radius: 50%;
+    top:-80px;
+    left:-80px;
+}
+.wrapper:after{
+    content:'';
+    position: absolute;
+    width:300px;
+    height:300px;
+    background: rgba(255,255,255,.1);
+    border-radius: 50%;
+    top:450px;
+    right:-70px;
+}
+
+.lamp1{
+    position: relative;
+    left:450px
+    
+}
+.lamp1 .lamphand{
+    position: relative;
+    width:1px;
+    height:260px;
+    background-image: linear-gradient(to bottom, #ff9000, #f0c94a);
+    top:-440px;
+    left:-500px;
+}
+.lamp1 .lamphand:before{
+    content:'';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border:1px solid #f0c94a;
+    top:260px;
+    left:-5px;
+}
+.lamp1 .lamphand:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:50% 50% 0 0;
+    /*background-color: #a6baa0;*/
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:272px;
+    left:-14px;
+}
+.lamp1 .lampbox{
+    position: relative;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:-415px;
+    left:-518px;
+}
+.lamp1 .lampbox:before{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 30px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:5px;
+    left:4px;
+}
+.lamp1 .lampbox:after{
+    content:'';
+    position: absolute;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:36px;
+    left:;
+}
+.lamp1 .lampcandle{
+    position: relative;
+    width:5px;
+    height: 18px;
+    background-image: radial-gradient(#aaa, #1a7566);
+    top:-402px;
+    left:-501px;
+}
+.lamp1 .lampcandle:before{
+    content:'';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
+    border-radius: 0 40% 60% 40%;
+    transform:rotate(45deg);
+    filter: drop-shadow(0 0 10px #d43322);
+    top:-9px;
+    left:-3px;
+}
+.lamp1 .lampcandle:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:0 0 50% 50%;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:24px;
+    left:-13px;
+    
+}
+.lamp2{
+    position: relative;
+    left:500px;
+    top:-100px;
+}
+.lamp2 .lamphand{
+    position: relative;
+    width:1px;
+    height:260px;
+    background-image: linear-gradient(to bottom, #ff9000, #f0c94a);
+    top:-440px;
+    left:-500px;
+}
+.lamp2 .lamphand:before{
+    content:'';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border:1px solid #f0c94a;
+    top:260px;
+    left:-5px;
+}
+.lamp2 .lamphand:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:50% 50% 0 0;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:272px;
+    left:-14px;
+}
+.lamp2 .lampbox{
+    position: relative;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:-415px;
+    left:-518px;
+}
+.lamp2 .lampbox:before{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 30px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:5px;
+    left:4px;
+}
+.lamp2 .lampbox:after{
+    content:'';
+    position: absolute;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:36px;
+    left:;
+}
+.lamp2 .lampcandle{
+    position: relative;
+    width:5px;
+    height: 18px;
+    background-image: radial-gradient(#aaa, #1a7566);
+    top:-402px;
+    left:-501px;
+}
+.lamp2 .lampcandle:before{
+    content:'';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
+    border-radius: 0 40% 60% 40%;
+    transform:rotate(45deg);
+    filter: drop-shadow(0 0 10px #d43322);
+    top:-9px;
+    left:-3px;
+}
+.lamp2 .lampcandle:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:0 0 50% 50%;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:24px;
+    left:-13px;
+    
+}
+.lamp3{
+    position: relative;
+    left:1100px;
+    top:;
+    z-index: 6;
+}
+.lamp3 .lamphand{
+    position: relative;
+    width:1px;
+    height:260px;
+    background-image: linear-gradient(to bottom, #ff9000, #f0c94a);
+    top:-440px;
+    left:-500px;
+}
+.lamp3 .lamphand:before{
+    content:'';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border:1px solid #f0c94a;
+    top:260px;
+    left:-5px;
+}
+.lamp3 .lamphand:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:50% 50% 0 0;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:272px;
+    left:-14px;
+}
+.lamp3 .lampbox{
+    position: relative;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:-415px;
+    left:-518px;
+}
+.lamp3 .lampbox:before{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 30px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:5px;
+    left:4px;
+}
+.lamp3 .lampbox:after{
+    content:'';
+    position: absolute;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:36px;
+    left:;
+}
+.lamp3 .lampcandle{
+    position: relative;
+    width:5px;
+    height: 18px;
+    background-image: radial-gradient(#aaa, #1a7566);
+    top:-402px;
+    left:-501px;
+}
+.lamp3 .lampcandle:before{
+    content:'';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
+    border-radius: 0 40% 60% 40%;
+    transform:rotate(45deg);
+    filter: drop-shadow(0 0 10px #d43322);
+    top:-9px;
+    left:-3px;
+}
+.lamp3 .lampcandle:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:0 0 50% 50%;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:24px;
+    left:-13px;
+    
+}
+
+.lamp4{
+    position: relative;
+    left:960px;
+    top:-100px;
+    z-index: 6;
+}
+.lamp4 .lamphand{
+    position: relative;
+    width:1px;
+    height:260px;
+    background-image: linear-gradient(to bottom, #ff9000, #f0c94a);
+    top:-440px;
+    left:-500px;
+}
+.lamp4 .lamphand:before{
+    content:'';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border:1px solid #f0c94a;
+    top:260px;
+    left:-5px;
+}
+.lamp4 .lamphand:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:50% 50% 0 0;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:272px;
+    left:-14px;
+}
+.lamp4 .lampbox{
+    position: relative;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:-415px;
+    left:-518px;
+}
+.lamp4 .lampbox:before{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 30px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:5px;
+    left:4px;
+}
+.lamp4 .lampbox:after{
+    content:'';
+    position: absolute;
+    width:38px;
+    height: 4px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:36px;
+    left:;
+}
+.lamp4 .lampcandle{
+    position: relative;
+    width:5px;
+    height: 18px;
+    background-image: radial-gradient(#aaa, #1a7566);
+    top:-402px;
+    left:-501px;
+}
+.lamp4 .lampcandle:before{
+    content:'';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    top:-9px;
+    left:-3px;
+    background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
+    border-radius: 0 40% 60% 40%;
+    transform:rotate(45deg);
+    filter: drop-shadow(0 0 10px #d43322);
+    
+}
+.lamp4 .lampcandle:after{
+    content:'';
+    position: absolute;
+    width:30px;
+    height: 12px;
+    border-radius:0 0 50% 50%;
+    background-image: linear-gradient(to right,#fff, #a6baa0);
+    top:24px;
+    left:-13px; 
+}
+.moon{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image:  linear-gradient(to bottom, #f0c94a 60%, #f04a9d);
+    border-radius: 50%;
+    top:-60px;
+    left:-120px;
+    z-index: 4;
+    overflow: hidden;
+
+}
+.moon:before{
+    content:'';
+    position: absolute;
+    width:460px;
+    height: 400px;
+    background-color: #1c102f;
+    border-radius: 50%;
+    left:90px;
+    top:30px;
+    transform: rotate(-55deg);
+}
+.mosque{
+    position: relative;
+    
+    background-color: transparent
+}
+.mosque .top1{
+    position: relative;
+    width:60px;
+    height: 40px;
+    background-image: radial-gradient(circle at 10px 10px, #1eb399, #222);
+    top:150px;
+    left:55px;
+    z-index:5;
+    border-radius: 30px;
+    
+}
+.mosque .top1:before{
+    content: '';
+    position: absolute;
+    width:14px;
+    height: 14px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-8px;
+    left:22px;
+}
+.mosque .top1:after{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-18px;
+    left:24px;
+}
+.mosque .pillar1{
+    position: relative;
+    width:38px;
+    height: 270px;
+    background-image: linear-gradient(45deg, #555, #a6bab7);
+    top:144px;
+    left:65px;
+    z-index: 3;
+}
+.mosque .pillar1:before{
+    content:'';
+    position: absolute;
+    width:38px;
+    height:10px;
+    border-radius: 50%;
+    border-top: 3px solid #1a7566;
+    top:50px;
+}
+.mosque .pillar1:after{
+    content:'';
+    position: absolute;
+    width:38px;
+    height:10px;
+    border-radius: 50%;
+    border-top: 3px solid #1a7566;
+    top:55px;
+}
+.mosque .window1{
+    position: relative;
+    background-color: #1c104f;
+    width:12px;
+    height:20px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    border-left:1px solid #ccc;
+    top:-105px;
+    left:77px;
+}
+.mosque .window1:before{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:12px;
+    height:20px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    border-left:1px solid #ccc;
+    top:50px;
+    left:;
+}
+.mosque .topp1{
+    position: relative;
+    width:90px;
+    height: 60px;
+    background-image: radial-gradient(circle at 20px 20px, #1eb399, #222);
+    top:-30px;
+    left:80px;
+    z-index:5;
+    border-radius: 30px;
+    
+}
+.mosque .topp1:before{
+    content: '';
+    position: absolute;
+    width:20px;
+    height: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-12px;
+    left:32px;
+}
+.mosque .topp1:after{
+    content: '';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-22px;
+    left:35px;
+}
+.mosque .pillarr1{
+    position: relative;
+    width:58px;
+    height: 270px;
+    background-image: linear-gradient(45deg, #555, #a6bab7);
+    top:-40px;
+    left:93px;
+    z-index: 3;
+}
+.mosque .pillarr1:before{
+    content:'';
+    position: absolute;
+    width:58px;
+    height:10px;
+    border-top: 3px solid #1a7566;
+    top:15px;
+}
+.mosque .pillarr1:after{
+    content:'';
+    position: absolute;
+    width:58px;
+    height:10px;
+    border-top: 3px solid #1a7566;
+    top:55px;
+}
+.mosque .windoww1{
+    position: relative;
+    background-color: #1c104f;
+    width:10px;
+    height:16px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    top:-280px;
+    left:117px;
+    z-index: 4;
+}
+.mosque .windoww1:before{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:10px;
+    height:16px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    top:;
+    left:-15px;
+}
+.mosque .windoww1:after{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:10px;
+    height:16px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    top:;
+    left:15px;
+}
+.mosque .main{
+    position: relative;
+    width:180px;
+    height: 340px;
+    background-image: linear-gradient(45deg, #555, #a6bab7);
+    top:-440px;
+    left:150px;
+    z-index: 3;
+}
+.mosque .main:before{
+    content:'';
+    position: absolute;
+    width:80px;
+    height: 160px;
+    background-color: #1c104f;
+    border-radius: 20px;
+    border:4px solid #ccc;
+    top:120px;
+    left:40px;
+}
+.mosque .main:after{
+    content:'';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    background-color: #1c104f;
+    border-top:4px solid #ccc;
+    border-left:4px solid #ccc;
+    top:115px;
+    left:75px;
+    transform: rotate(45deg)
+}
+.mosque .mainwindow{
+    position: relative;
+    background-color: #1c104f;
+    width:20px;
+    height:30px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:3px solid #ccc;
+    border-right:3px solid #ccc;
+    top:-740px;
+    left:227px;
+    z-index: 3;
+}
+.mosque .mainwindow:before{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:20px;
+    height:30px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:3px solid #ccc;
+    border-right:3px solid #ccc;
+    top:;
+    left:-45px;
+}
+.mosque .mainwindow:after{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:20px;
+    height:30px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:3px solid #ccc;
+    border-right:3px solid #ccc;
+    top:;
+    left:45px;
+}
+
+.mosque .topp1:before{
+    content: '';
+    position: absolute;
+    width:20px;
+    height: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-12px;
+    left:32px;
+}
+.mosque .topp1:after{
+    content: '';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-22px;
+    left:35px;
+}
+.mosque .maintop{
+    position: relative;
+    width:240px;
+    height:160px;
+    background-image: radial-gradient(circle at 60px 60px, #1eb399, #222);
+    top:-940px;
+    left:120px;
+    z-index:2;
+    border-radius: 50%;
+    
+}
+.mosque .maintop:before{
+    content: '';
+    position: absolute;
+    width:40px;
+    height: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-8px;
+    left:98px;
+}
+.mosque .maintop:after{
+    content: '';
+    position: absolute;
+    width:3px;
+    height: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-25px;
+    left:116px;
+}
+.mosque .moon2{
+    position: relative;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #f0c94a, #ff9812);
+    top:-1155px;
+    left:225px;
+}
+.mosque .moon2:before{
+    content:'';
+    position: absolute;
+    width:28px;
+    height:30px;
+    border-radius: 50%;
+    background-color:#1c102f;
+    top:px;
+    left:8px;
+    
+}
+.mosque .star1{
+    position: relative;
+    background-color: #f0c94a;
+    width:6px;
+    height:6px;
+    transform: rotate(45deg);
+    top:-1183px;
+    left:248px;
+}
+.mosque .star1:before{
+    content:'';
+    position: absolute;
+    background-color: #f0c94a;
+    width:6px;
+    height:6px;
+    transform: rotate(90deg);
+    top:2px;
+    left:-1px;
+}
+.mosque .topp2{
+    position: relative;
+    width:90px;
+    height: 60px;
+    background-image: radial-gradient(circle at 20px 20px, #1eb399, #222);
+    top:-950px;
+    left:315px;
+    z-index:6;
+    border-radius: 30px;
+    
+}
+.mosque .topp2:before{
+    content: '';
+    position: absolute;
+    width:20px;
+    height: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-12px;
+    left:32px;
+}
+.mosque .topp2:after{
+    content: '';
+    position: absolute;
+    width:12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-22px;
+    left:35px;
+}
+.mosque .pillarr2{
+    position: relative;
+    width:58px;
+    height: 270px;
+    background-image: linear-gradient(45deg, #555, #a6bab7);
+    top:-960px;
+    left:330px;
+    z-index: 5;
+}
+.mosque .pillarr2:before{
+    content:'';
+    position: absolute;
+    width:58px;
+    height:10px;
+    border-top: 3px solid #1a7566;
+    top:15px;
+}
+.mosque .pillarr2:after{
+    content:'';
+    position: absolute;
+    width:58px;
+    height:10px;
+    border-top: 3px solid #1a7566;
+    top:55px;
+}
+.mosque .windoww2{
+    position: relative;
+    background-color: #1c104f;
+    width:10px;
+    height:16px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    top:-1200px;
+    left:353px;
+    z-index: 6;
+}
+.mosque .windoww2:before{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:10px;
+    height:16px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    top:;
+    left:-15px;
+}
+.mosque .windoww2:after{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:10px;
+    height:16px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    top:;
+    left:15px;
+}
+.mosque .top2{
+    position: relative;
+    width:60px;
+    height: 40px;
+    background-image: radial-gradient(circle at 10px 10px, #1eb399, #222);
+    top:-1460px;
+    left:370px;
+    z-index:5;
+    border-radius: 30px;
+    
+}
+.mosque .top2:before{
+    content: '';
+    position: absolute;
+    width:14px;
+    height: 14px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-8px;
+    left:22px;
+}
+.mosque .top2:after{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    top:-18px;
+    left:24px;
+}
+.mosque .pillar2{
+    position: relative;
+    width:38px;
+    height: 280px;
+    background-image: linear-gradient(45deg, #555, #a6bab7);
+    top:-1460px;
+    left:380px
+}
+.mosque .pillar2:before{
+    content:'';
+    position: absolute;
+    width:38px;
+    height:10px;
+    border-radius: 50%;
+    border-top: 3px solid #1a7566;
+    top:50px;
+}
+.mosque .pillar2:after{
+    content:'';
+    position: absolute;
+    width:38px;
+    height:10px;
+    border-radius: 50%;
+    border-top: 3px solid #1a7566;
+    top:55px;
+}
+.mosque .window2{
+    position: relative;
+    background-color: #1c104f;
+    width:12px;
+    height:20px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    border-left:1px solid #ccc;
+    top:-1720px;
+    left:390px;
+}
+.mosque .window2:before{
+    content:'';
+    position: absolute;
+    background-color: #1c104f;
+    width:12px;
+    height:20px;
+    border-radius: 50% 50% 0 0 ;
+    border-bottom:2px solid #ccc;
+    border-right:2px solid #ccc;
+    border-left:1px solid #ccc;
+    top:50px;
+    left:;
+}
+.cover1{
+    position: relative;
+    background-color: #666;
+    width:28px;
+    height: 60px;
+    top:-142px;
+    left:-555px;
+    z-index: 8;
+}
+.cloud1{
+    position: relative;
+    background-color: #f04a9d ;
+    width:40px;
+    height:60px;
+    border-radius: 40px;
+    top:-140px;
+    left:-602px;
+    transform: rotate(-45deg);
+    z-index:4;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3)
+}
+.cloud1:before{
+    content:'';
+    position: absolute;
+     background-color: #f04a9d ;
+    width:50px;
+    height:50px;
+    border-radius: 40px;
+    top:-2px;
+    left:-38px;
+    transform: rotate(-45deg);
+    z-index:4;
+    box-shadow: -1 -1 10px 0 rgba(0,0,0,.1)
+}
+.cloud1:after{
+    content:'';
+    position: absolute;
+    background-image: linear-gradient(-15deg, #f04a9d 30%, #d4b128);
+    width:42px;
+    height:42px;
+    border-radius: 40px;
+    top:-26px;
+    left:-56px;
+    transform: rotate(-45deg);
+    z-index:4;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3)
+}
+.cover2{
+    position: relative;
+    background-color: #666;
+    width:28px;
+    height: 60px;
+    top:-127px;
+    left:-338px;
+    z-index: 8;
+}
+.cloud2{
+    position: relative;
+    background-color: #f04a9d ;
+    width:40px;
+    height:50px;
+    border-radius: 40px;
+    top:-125px;
+    left:-280px;
+    transform: rotate(45deg);
+    z-index:4;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3)
+}
+.cloud2:before{
+    content:'';
+    position: absolute;
+    background-color: #f04a9d;
+     width:40px;
+    height:50px;
+    border-radius: 40px;
+    top:-5px;
+    left:30px;
+    transform: rotate(deg);
+    z-index:4;
+    box-shadow: -1 -1 10px 0 rgba(0,0,0,.1)
+}
+.cloud2:after{
+    content:'';
+    position: absolute;
+    background-image: linear-gradient(15deg, #f04a9d 30%, #d4b128);
+    width:30px;
+    height:30px;
+    border-radius: 40px;
+    top:-10px;
+    left:60px;
+    transform: rotate(deg);
+    z-index:4;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3)
+}
+.cover2:before{
+    content:'';
+    position: absolute;
+    background-color: #1c102f;
+    width:75px;
+    height: 28px;
+    top:60px;
+    left:33px;
+    z-index: 8;
+}
+.star1{
+    position: relative;
+    background-color: #d4b128;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    top:-475px;
+    left:-550px;
+    z-index:4;
+}
+.star1:before{
+    content:'';
+    position: absolute;
+    background-color: #d4b128;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    top:-40px;
+    left:90px;
+    z-index:4;
+}
+.star1:after{
+    content:'';
+    position: absolute;
+    background-color: #d4b128;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    top:-40px;
+    left:90px;
+    z-index:4;
+}
+.star2{
+    position: relative;
+    background-color: #d4b128;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    top:-475px;
+    left:-400px;
+    z-index:4;
+}
+.star2:before{
+    content:'';
+    position: absolute;
+    background-color: #d4b128;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    top:120px;
+    left:90px;
+    z-index:4;
+}
+.star2:after{
+    content:'';
+    position: absolute;
+    background-color: #d4b128;
+    width:4px;
+    height:4px;
+    border-radius: 50%;
+    top:-40px;
+    left:90px;
+    z-index:4;
+}
+.text{
+    font-size: 60px;
+    position: absolute;
+    bottom:150px;
+    right:200px;
+    font-family: 'Tangerine',cursive;
+    color:#d4b128;
+    font-weight: bolder;
+}
+/*responsiveness*/
+@media screen and (max-width:900px){
+    .wrapper{
+        transform: scale(0.6);
+        justify-content:flex-end;
+    }
+}
+@media screen and (max-width:900px){
+    .wrapper{
+        transform: scale(0.6);
+        justify-content:flex-end;
+    }
+    .moon{
+        transform: scale(0.8);
+    }
+    .cloud1{
+        display: none;
+    }
+    .cloud2{
+        display: none;
+    }
+    .cover1{
+        display: none;
+    }
+    .cover2{
+        display: none;
+    }
+    .text{
+        left:680px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .wrapper{
+        transform: scale(0.4);
+        justify-content:flex-end;
+    }
+    .moon{
+        transform: scale(0.6);
+    }
+    .text{
+        left:500px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:400px){
+    
+    .moon{
+        transform: scale(0.4);
+    }
+  .mosque{
+    transform:scale(0.2);
+  }
+    .text{
+        left:100px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:300px){
+    
+    .moon{
+        transform: scale(0.2);
+    }
+    .mosque{
+        transform: scale(0.1);
+    }
+    .text{
+        left:100px;
+        font-size: 20px;
+    }
+}
